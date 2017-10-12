@@ -12,6 +12,7 @@ FILES+=("CONTRIBUTORS.md")
 FILES+=("index.php")
 FILES+=("${CWD_BASENAME}.php")
 FILES+=("README.md")
+FILES+=("apcu/**")
 FILES+=("translations/**")
 FILES+=("views/**")
 
