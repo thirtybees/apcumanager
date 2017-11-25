@@ -1,0 +1,1 @@
+The official thirty bees APCu module allows you to monitor and clear your APCu cache from your shop's back office.
