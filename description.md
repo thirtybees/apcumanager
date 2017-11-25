@@ -4,4 +4,4 @@ APCu cache is a caching mechanism for caching user entered data in memory, speed
 
 This module does not install any type of cache, it only allows you to monitor the cache on your server if it is installed in PHP already.
 
-For more information on APCu [read the documentation](http://php.net/manual/en/book.apcu.php){:target="_blank"}
+For more information on APCu <a href="http://php.net/manual/en/book.apcu.php" target="_blank">read the documentation</a>
