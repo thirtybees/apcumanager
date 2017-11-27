@@ -1,7 +1,7 @@
 module_name: APCu Cache Manager
 compatible_versions: 1.0.0+
 author: thirty bees
-category: administraion
+category: administration
 sub-category: cache management
 tags:
   - cache
