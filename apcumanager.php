@@ -38,6 +38,11 @@ class ApcuManager extends Module
         $this->description = $this->l('View and manage your APCu user directly from your backoffice');
     }
 
+    /**
+     * @return string
+     * @throws PrestaShopException
+     * @throws SmartyException
+     */
     public function getContent()
     {
         $this->context->smarty->assign([
