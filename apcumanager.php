@@ -1,6 +1,6 @@
 <?php
 /**
- * Copyright (C) 2017 thirty bees
+ * Copyright (C) 2017-2018 thirty bees
  *
  * NOTICE OF LICENSE
  *
@@ -13,74 +13,37 @@
  * to contact@thirtybees.com so we can send you a copy immediately.
  *
  * @author    thirty bees <contact@thirtybees.com>
- * @copyright 2017 thirty bees
+ * @copyright 2017-2018 thirty bees
  * @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
-
 
 if (!defined('_TB_VERSION_')) {
     exit;
 }
 
-
+/**
+ * Class ApcuManager
+ */
 class ApcuManager extends Module
-
 {
-
-    protected $config_form = false;
-
-
     public function __construct()
-
     {
-
         $this->name = 'apcumanager';
-
         $this->tab = 'administration';
-
-        $this->version = '1.0.1';
-
+        $this->version = '1.0.2';
         $this->author = 'thirty bees';
-
-
         $this->bootstrap = true;
-
-
         parent::__construct();
-
-
         $this->displayName = $this->l('thirty bees APCu Cache Manager');
-
         $this->description = $this->l('View and manage your APCu user directly from your backoffice');
-
     }
-
-    public function install()
-
-    {
-
-        return parent::install() &&
-
-        (bool)true;
-
-    }
-
 
     public function getContent()
-
     {
-
-        $this->context->smarty->assign(array(
-
-            'module_dir' => $this->_path
-
-        ));
-
+        $this->context->smarty->assign([
+            'module_dir' => $this->_path,
+        ]);
 
         return $this->display(__FILE__, 'views/templates/admin/apc.tpl');
-
-
     }
-
-
 }
