@@ -4,14 +4,16 @@ author: thirty bees
 category: administration
 sub-category: cache management
 tags:
-  - cache
-  - apc
-  - apcu
-  - cache manger
+- cache
+- apc
+- apcu
+- cache manger
+- apcumanger
 description_short: The official thirty bees APCu module allows you to monitor and clear your APCu cache from your shop's back office.
 description: description.md
 images:
-  - image-1.png
-  - image-2.png
+- image-1.png
+- image-2.png
 gdpr_compliant: true
 license: MIT
+
