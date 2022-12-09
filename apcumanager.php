@@ -33,6 +33,7 @@ class ApcuManager extends Module
         $this->version = '1.0.2';
         $this->author = 'thirty bees';
         $this->bootstrap = true;
+        $this->need_instance = false;
         parent::__construct();
         $this->displayName = $this->l('thirty bees APCu Cache Manager');
         $this->description = $this->l('View and manage your APCu user directly from your backoffice');
