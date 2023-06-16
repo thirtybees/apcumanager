@@ -30,7 +30,7 @@ class ApcuManager extends Module
     {
         $this->name = 'apcumanager';
         $this->tab = 'administration';
-        $this->version = '1.0.2';
+        $this->version = '1.0.3';
         $this->author = 'thirty bees';
         $this->bootstrap = true;
         $this->need_instance = false;
