@@ -31,7 +31,7 @@ class ApcuManager extends Module
     {
         $this->name = 'apcumanager';
         $this->tab = 'administration';
-        $this->version = '1.0.3';
+        $this->version = '1.1.0';
         $this->author = 'thirty bees';
         $this->bootstrap = true;
         $this->need_instance = false;
@@ -84,6 +84,9 @@ class ApcuManager extends Module
      * Renders the configuration form
      *
      * @return string
+     *
+     * @throws PrestaShopException
+     * @throws SmartyException
      */
     public function renderForm()
     {
